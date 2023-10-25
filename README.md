@@ -1,3 +1,10 @@
+# About this fork
+
+This fork aims to fix only one thing: having functional deeplinks in Android 12+ when using *only one scheme*.
+The ability to handle multiple schemes is nice, but when secondary schemes (DEEPLINK_2_SCHEME, DEEPLINK_3_SCHEME...) are not necessary and left empty, the main scheme simply does not work anymore (due to bad attributes in the file plugin.xml).
+*The only updated file in this fork is plugin.xml*.
+This fork is unable to handle secondary schemes in Android.
+
 # Community Maintained
 
 This plugin is being maintained by the Ionic community. Interested in helping? Message `max` on ionic worldwide slack.
